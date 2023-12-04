@@ -36,3 +36,4 @@
 ## 相关项目
 
 - [soulteary/You-Dont-Need-Webpack](https://github.com/soulteary/You-Dont-Need-Webpack)
+  - 在 AMD 模块中搭配 Vue 技术栈的免构建方案
