@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Show case</title>
+    <!-- optional: online cdn -->
+    <!-- <script src="https://www.unpkg.com/san@3.13.3/dist/san.min.js"></script> -->
+    <!-- <script src="https://www.unpkg.com/san-router@2.0.2/dist/san-router.js"></script> -->
+    <!-- <script src="https://www.unpkg.com/esljs@2.2.2/dist/esl.js"></script> -->
+
+    <script src="lib/san@3.13.3/san.min.js"></script>
+    <script src="lib/san-router@2.0.2/san-router.min.js"></script>
+    <script src="lib/esljs@2.2.2/esl.min.js"></script>
+    <script>
+      require.config({
+        baseUrl: "src",
+        shim: {},
+        paths: {
+          // san 官方例子，引入点啥工具库，在这里配
+          // jquery: "../node_modules/jquery/dist/jquery.min",
+        },
+        waitSeconds: 3,
+      });
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      require(["app"], function (app) {
+        app.init();
+      });
+    </script>
+  </body>
+</html>
