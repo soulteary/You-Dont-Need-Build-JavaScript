@@ -15,14 +15,11 @@ func Exec(rootDir string) {
 	src := path.Join(rootDir, "santd@1.1.3/santd.js")
 	dest := path.Join(rootDir, "santd@1.1.3/santd.min.js")
 	PatchSantd(src, dest)
-
 	const dayjsDir = "core@2023.12.04"
-
-	A(rootDir, dayjsDir)
-
+	CombineCoreJS(rootDir, dayjsDir)
 }
 
-func A(rootDir string, outputDir string) {
+func CombineCoreJS(rootDir string, outputDir string) {
 	dayjs := []string{
 		"dayjs@1.11.10/dayjs.min.js",
 		"dayjs@1.11.10/locale/en.min.js",
@@ -55,8 +52,6 @@ func A(rootDir string, outputDir string) {
 		"san@3.13.3/san.min.js",
 		"san-router@2.0.2/san-router.min.js",
 		"san-router@2.0.2/san-router.min.js",
-		// "santd@1.1.3/santd.min.js",
-		// "esljs@2.2.2/esl.min.js",
 	}
 
 	buff = [][]byte{}
