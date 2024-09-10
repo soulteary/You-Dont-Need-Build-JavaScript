@@ -15,21 +15,21 @@ func Exec(rootDir string) {
 	src := path.Join(rootDir, "santd@1.1.3/santd.js")
 	dest := path.Join(rootDir, "santd@1.1.3/santd.min.js")
 	PatchSantd(src, dest)
-	const dayjsDir = "core@2023.12.04"
+	const dayjsDir = "core@2024.09.11"
 	CombineCoreJS(rootDir, dayjsDir)
 }
 
 func CombineCoreJS(rootDir string, outputDir string) {
 	dayjs := []string{
-		"dayjs@1.11.10/dayjs.min.js",
-		"dayjs@1.11.10/locale/en.min.js",
-		"dayjs@1.11.10/locale/zh-cn.min.js",
-		"dayjs@1.11.10/plugin/utc.min.js",
-		"dayjs@1.11.10/plugin/localeData.min.js",
-		"dayjs@1.11.10/plugin/customParseFormat.min.js",
-		"dayjs@1.11.10/plugin/weekOfYear.min.js",
-		"dayjs@1.11.10/plugin/weekYear.min.js",
-		"dayjs@1.11.10/plugin/advancedFormat.min.js",
+		"dayjs@1.11.13/dayjs.min.js",
+		"dayjs@1.11.13/locale/en.min.js",
+		"dayjs@1.11.13/locale/zh-cn.min.js",
+		"dayjs@1.11.13/plugin/utc.min.js",
+		"dayjs@1.11.13/plugin/localeData.min.js",
+		"dayjs@1.11.13/plugin/customParseFormat.min.js",
+		"dayjs@1.11.13/plugin/weekOfYear.min.js",
+		"dayjs@1.11.13/plugin/weekYear.min.js",
+		"dayjs@1.11.13/plugin/advancedFormat.min.js",
 	}
 
 	buff := [][]byte{}
@@ -49,7 +49,7 @@ func CombineCoreJS(rootDir string, outputDir string) {
 	cores := []string{
 		dayjsFilePath,
 		"enquire.js@2.1.6/enquire.min.js",
-		"san@3.13.3/san.min.js",
+		"san@3.15.0/san.min.js",
 		"san-router@2.0.2/san-router.min.js",
 		"san-router@2.0.2/san-router.min.js",
 	}

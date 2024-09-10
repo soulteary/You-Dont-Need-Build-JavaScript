@@ -8,7 +8,7 @@
   - 相关资料：[如何配置 Loader](https://github.com/ecomfe/esl/blob/master/doc/config.md)
 
 - 前端组件框架
-  - [SAN - JavaScript component framework](https://github.com/baidu/san) [v3.13.3](https://github.com/baidu/san/releases/tag/3.13.3)
+  - [SAN - JavaScript component framework](https://github.com/baidu/san) [v3.15.0](https://www.npmjs.com/package/san/v/3.15.0?activeTab=versions)
   - 项目协议：[[MIT license]](https://github.com/baidu/san/blob/master/LICENSE) by [@baidu](https://github.com/baidu)
   - 相关资料：[官方网站](https://baidu.github.io/san/)
 
@@ -23,7 +23,7 @@
   - 相关资料：[官方网站](https://ecomfe.github.io/santd/)
 
 - 日期时间库
-  - [dayjs - immutable date-time library](https://github.com/iamkun/dayjs) [v1.11.10](https://github.com/iamkun/dayjs/releases/tag/v1.11.10)
+  - [dayjs - immutable date-time library](https://github.com/iamkun/dayjs) [v1.11.13](https://github.com/iamkun/dayjs/releases/tag/v1.11.13)
   - 项目协议：[[MIT license]](https://github.com/iamkun/dayjs/blob/dev/LICENSE) by [@iamkun](https://github.com/iamkun)
   - 相关资料：[官方网站](https://day.js.org/)
 
