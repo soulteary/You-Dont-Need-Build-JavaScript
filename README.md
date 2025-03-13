@@ -8,7 +8,7 @@
   - 相关资料：[如何配置 Loader](https://github.com/ecomfe/esl/blob/master/doc/config.md)
 
 - 前端组件框架
-  - [SAN - JavaScript component framework](https://github.com/baidu/san) [v3.15.0](https://www.npmjs.com/package/san/v/3.15.0?activeTab=versions)
+  - [SAN - JavaScript component framework](https://github.com/baidu/san) [v3.15.1](https://www.npmjs.com/package/san/v/3.15.1?activeTab=versions)
   - 项目协议：[[MIT license]](https://github.com/baidu/san/blob/master/LICENSE) by [@baidu](https://github.com/baidu)
   - 相关资料：[官方网站](https://baidu.github.io/san/)
 

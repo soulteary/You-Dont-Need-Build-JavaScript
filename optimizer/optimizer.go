@@ -15,7 +15,7 @@ func Exec(rootDir string) {
 	src := path.Join(rootDir, "santd@1.1.3/santd.js")
 	dest := path.Join(rootDir, "santd@1.1.3/santd.min.js")
 	PatchSantd(src, dest)
-	const dayjsDir = "core@2024.09.11"
+	const dayjsDir = "core@2025.03.13"
 	CombineCoreJS(rootDir, dayjsDir)
 }
 
@@ -49,7 +49,7 @@ func CombineCoreJS(rootDir string, outputDir string) {
 	cores := []string{
 		dayjsFilePath,
 		"enquire.js@2.1.6/enquire.min.js",
-		"san@3.15.0/san.min.js",
+		"san@3.15.1/san.min.js",
 		"san-router@2.0.2/san-router.min.js",
 		"san-router@2.0.2/san-router.min.js",
 	}
