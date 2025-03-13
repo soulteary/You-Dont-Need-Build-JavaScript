@@ -1,5 +1,7 @@
 # You Don't Need Build JavaScript
 
+![](./you-dont.jpg)
+
 ## 使用组件
 
 - 资源加载器
