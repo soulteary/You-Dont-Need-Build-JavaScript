@@ -39,3 +39,5 @@
 
 - [soulteary/You-Dont-Need-Webpack](https://github.com/soulteary/You-Dont-Need-Webpack)
   - 在 AMD 模块中搭配 Vue 技术栈的免构建方案
+- [soulteary/docker-quick-docs](https://github.com/soulteary/docker-quick-docs)
+  - 本地部署、能够快速访问的文档工具，用来改善 GitHub Pages 文档访问体验。
