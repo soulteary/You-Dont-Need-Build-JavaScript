@@ -3,7 +3,7 @@ version: '3.6'
 services:
 
   preview:
-    image: nginx:1.21-alpine
+    image: nginx:1.27-alpine
     ports:
       - 10240:80
     volumes:
